@@ -36,19 +36,12 @@ public class NotePad extends JPanel { // Changed from Component to JPanel
 
         //Add action Listeners
         openItem.addActionListener(new OpenAction());
-       saveItem.addActionListener(new SaveAction());
+        saveItem.addActionListener(new SaveAction());
         exitItem.addActionListener(e -> System.exit(0));
 
 
-        //fileMenu1.addActionListener(new OpenAction());
-        //fileMenu2.addActionListener(new SaveAction());
-        //fileMenu3.addActionListener(e -> System.exit(0));
+  
 
-
-        /*&Create File menu
-        JMenu fileMenu1 = new JMenu("Open"); // Added proper File menu
-        JMenu fileMenu2 = new JMenu("Save"); // Added proper File menu
-        JMenu fileMenu3 = new JMenu("Exit"); // Added proper File menu
 
          */
 
